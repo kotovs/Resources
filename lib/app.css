@@ -1,0 +1,105 @@
+/* Frontend */
+.items{
+  margin: 25px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+.items a img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.items li {
+  position:relative;
+  background:#fff;
+  list-style-type: none;
+  margin: 0 20px 40px 0;
+  padding: 0;
+  width:272px;
+  vertical-align: top;
+  box-shadow:0 1px 2px #999;
+  display:inline-block;
+  overflow: hidden;
+  -webkit-transition: all 800ms ease-out;
+  -moz-transition: all 800ms ease-out;
+  -o-transition: all 800ms ease-out;
+  -ms-transition: all 800ms ease-out;
+  transition: all 800ms ease-out;
+}
+.items .caption {
+padding: 5px;
+background: url(../../plugins/resources/lib/black.png) repeat center center rgba(0, 0, 0, 0);
+position: absolute;
+color: #fff;
+z-index: 100;
+left: 500px;
+top: 0;
+width: 100%;
+height: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+.item-download{
+position:absolute;
+bottom:0;
+text-decoration:none;
+padding:2px 10px 2px 10px;
+text-shadow:0 1px 2px #000;
+-webkit-transition:all 0.5s ease;
+   -moz-transition:all 0.5s ease;
+     -o-transition:all 0.5s ease;
+        transition:all 0.5s ease;
+}
+.item-download:hover,
+.item-download:focus {
+position: absolute;
+bottom: 0;
+padding: 2px 10px 2px 10px;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+
+/* NAV MENU */
+.tags{
+list-style: none;
+margin-bottom: 10px;
+padding: 15px 10px 15px 10px;
+margin-left: 0;
+font-weight: bold;
+}
+.tags li{
+display:inline;
+margin-left:2px;
+/*transition*/
+-webkit-transition:all 0.5s ease;
+   -moz-transition:all 0.5s ease;
+     -o-transition:all 0.5s ease;
+        transition:all 0.5s ease;
+}
+.tags li a {
+font-size: 15px;
+font-weight: bold;
+text-decoration: none;
+padding: 16px 15px 17px 15px;
+}
+.tags li a:hover, .tags li .active {
+font-weight: bold;
+font-size: 17px;
+text-shadow: 0 1px 1px #666;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+padding: 16px 15px 17px 15px;
+}
+
